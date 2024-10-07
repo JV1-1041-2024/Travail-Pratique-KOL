@@ -32,6 +32,8 @@ RectTransform:
   m_Children:
   - {fileID: 3200862086193301106}
   - {fileID: 3105148903051349590}
+  - {fileID: 9175506039574098471}
+  - {fileID: 749709650031680532}
   m_Father: {fileID: 2907613785809424993}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -243,8 +245,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 9012792974935891954}
-  - {fileID: 9175506039574098471}
-  - {fileID: 749709650031680532}
+  - {fileID: 2729437630193411843}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -462,7 +463,7 @@ GameObject:
   - component: {fileID: 9198723350194452798}
   - component: {fileID: 5746727290748400353}
   m_Layer: 5
-  m_Name: Jouer (1)
+  m_Name: Bouton Salle de bain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -481,11 +482,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7646833126057737070}
-  m_Father: {fileID: 2907613785809424993}
+  m_Father: {fileID: 9012792974935891954}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1049.1, y: -910}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 650, y: 80}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4966358583818863882
@@ -583,7 +584,7 @@ GameObject:
   - component: {fileID: 2927782668172102383}
   - component: {fileID: 2238691033328052283}
   m_Layer: 5
-  m_Name: Jouer (2)
+  m_Name: Bouton chambre
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -604,9 +605,9 @@ RectTransform:
   - {fileID: 2023406704213338404}
   m_Father: {fileID: 9012792974935891954}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1582.8635, y: -78.27948}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 245, y: 80}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &910035759980039430
@@ -838,7 +839,7 @@ GameObject:
   - component: {fileID: 7568099821412403512}
   - component: {fileID: 8929416794320472641}
   m_Layer: 5
-  m_Name: Jouer (3)
+  m_Name: Bouton Salon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -857,11 +858,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2318266792746391067}
-  m_Father: {fileID: 2907613785809424993}
+  m_Father: {fileID: 9012792974935891954}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -562, y: -909.99963}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 1055, y: 80}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1335837070212534686
@@ -946,6 +947,50 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &8963454845319993603
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2729437630193411843}
+  - component: {fileID: 964786457976559702}
+  m_Layer: 0
+  m_Name: LoadSceneManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2729437630193411843
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8963454845319993603}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 195.35376, y: 16.738281, z: -2.0490496}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2907613785809424993}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &964786457976559702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8963454845319993603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 510261681296b664fbe1ab6ab4c6cdf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &9214513991180297066
 GameObject:
   m_ObjectHideFlags: 0
