@@ -9,8 +9,8 @@ public class LoadScene : MonoBehaviour
     public void ChargementChambre(){
         SceneManager.LoadScene("Chambre");
     }
-    public void ChargementSalledebain(){
-        SceneManager.LoadScene("Salledebain");
+    public void ChargementSalleDeBain(){
+        SceneManager.LoadScene("Salle de bain");
     }
     public void ChargementSalon(){
         SceneManager.LoadScene("Salon");
