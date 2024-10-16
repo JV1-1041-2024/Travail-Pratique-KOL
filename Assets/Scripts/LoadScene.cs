@@ -6,8 +6,13 @@ using UnityEngine.SceneManagement;
 public class LoadScene : MonoBehaviour
 {
 
-    public void Chargement (){
+    public void ChargementChambre(){
         SceneManager.LoadScene("Chambre");
     }
-
+    public void ChargementSalledebain(){
+        SceneManager.LoadScene("Salledebain");
+    }
+    public void ChargementSalon(){
+        SceneManager.LoadScene("Salon");
+    }
 }
