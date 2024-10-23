@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Glass
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
-  m_Parent: {fileID: 2100000, guid: 88fad3672f924c7448b2c0f48809c70e, type: 2}
+  m_Parent: {fileID: 2100000, guid: df7ea4600a8423a4ca6dee188b1f1c42, type: 2}
   m_ModifiedSerializedProperties: 16
   m_ValidKeywords:
   - _SURFACE_TYPE_TRANSPARENT
